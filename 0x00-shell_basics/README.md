@@ -30,3 +30,6 @@
 
 # 10-back
 > Script that changes the working directory to the previous one.
+
+# 11-lists
+> Script that list all files even hidden files on current directory, parent directory and /boot directory.
