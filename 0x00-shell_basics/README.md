@@ -21,3 +21,6 @@
 
 # 7-movethatfile
 > Script that move the file betty from /tmp directory to /tmp/holberton directory.
+
+# 8-firstdelete
+> Script that delete file betty from /tmp/holberton directory.
