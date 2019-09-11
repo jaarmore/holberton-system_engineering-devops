@@ -33,3 +33,6 @@
 
 # 11-lists
 > Script that list all files even hidden files on current directory, parent directory and /boot directory.
+
+# 12-file_type
+> script that prints the type of the file named iamafile.
