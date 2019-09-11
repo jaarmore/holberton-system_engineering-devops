@@ -18,3 +18,6 @@
 
 # 6-firstdirectory
 > This script create a new empty directory called holberton on /tmp directory.
+
+# 7-movethatfile
+> Script that move the file betty from /tmp directory to /tmp/holberton directory.
