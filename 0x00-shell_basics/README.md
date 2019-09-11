@@ -24,3 +24,6 @@
 
 # 8-firstdelete
 > Script that delete file betty from /tmp/holberton directory.
+
+# 9-firstdirdeletion
+> Script that delete holberton directory from /tmp
