@@ -15,3 +15,6 @@
 
 # 5-listfilesdigitonly
 > Script that display current directory contents with long format, user and groups id and hidden files.
+
+# 6-firstdirectory
+> This script create a new empty directory called holberton on /tmp directory.
