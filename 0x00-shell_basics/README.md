@@ -48,3 +48,6 @@
 
 # 16-clean_emacs
 > Script that deletes all files in the current working directory that end with the character ~.
+
+# 17-tree
+> Script that creates the directories welcome/, welcome/to/ and welcome/to/holberton in the current directory.
