@@ -51,7 +51,10 @@
 > Script file that changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
 
 ## 15-symbolic_link_permissions
-Script that changes the owner and the group owner of the file _hello to betty and holberton respectively.
+> Script that changes the owner and the group owner of the file _hello to betty and holberton respectively.
 
 ## 16-if_only
-Script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
+> Script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
+
+## 100-Star_Wars
+> Script that will play the StarWars IV episode in the terminal.
