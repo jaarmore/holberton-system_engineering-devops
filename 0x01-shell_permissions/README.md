@@ -46,3 +46,6 @@
 
 ## 13-change_group
 > script file that changes the group owner to holberton for the file hello on working directory.
+
+## 14-change_owner_and_group
+> Script file that changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
