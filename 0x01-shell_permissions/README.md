@@ -3,3 +3,6 @@
 
 ## 0-iam_betty
 > Script that changes your user ID to betty user.
+
+## 1-who_am_i
+> Script that prints the effective userid of the current user.
