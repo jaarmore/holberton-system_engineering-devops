@@ -1,3 +1,4 @@
+
 # Project 0x02. Shell, I/O Redirections and filters
 
 ## 0-hello_world
@@ -42,3 +43,6 @@
 
 ## 13-unique
 > Script that takes a list of words as input and prints only words that appear exactly once.
+
+## 14-findthatword
+> Script that display lines containing the pattern “root” from the file /etc/passwd.
