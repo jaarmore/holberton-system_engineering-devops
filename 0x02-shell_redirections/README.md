@@ -24,3 +24,6 @@
 
 ## 7-file
 > Script that creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line.
+
+## 8-cwd_state
+> Script that writes into the file ls_cwd_content the result of the command ls -la.
