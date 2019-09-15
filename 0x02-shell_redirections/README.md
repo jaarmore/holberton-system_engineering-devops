@@ -12,3 +12,6 @@
 
 ## 3-twofiles
 > Script that display the content of /etc/passwd and /etc/host file.
+
+## 4-lastlines
+> Script that display the last 10 lines of /etc/psaswd file.
