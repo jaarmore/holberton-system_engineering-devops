@@ -21,3 +21,6 @@
 
 ## 6-third_line
 > Script that displays the third line of the file iacta.
+
+## 7-file
+> Script that creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line.
