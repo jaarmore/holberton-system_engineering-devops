@@ -7,5 +7,8 @@
 > Script that display displays a confused smiley "(Ôo)'.
 
 
-# 2-hellofile
+## 2-hellofile
 > Script that display the content of the file /etc/passwd.
+
+## 3-twofiles
+> Script that display the content of /etc/passwd and /etc/host file.
