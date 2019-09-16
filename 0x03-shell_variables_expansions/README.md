@@ -14,4 +14,9 @@
 
 > 6-create_local_variable, script that create a new local variable.
 + Name: BETTY
-Value: Holberton
++ Value: Holberton
+
+> 7-create_global_variable, script that creates a new global variable.
++ Name: HOLBERTON
++ Value: Betty
+
