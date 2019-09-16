@@ -8,6 +8,8 @@
 
 > 2-path, script that add /action to the PATH.
 
+> 3-paths, script that counts the number of directories in the PATH.
+
 > 4-global_variables, script that prints enviroments variables
 
 > 5-local_variables, script that prints all enviroment variables, local variables and functions.
