@@ -31,3 +31,5 @@
 + The script should display the number in base 10, followed by a new line.
 
 > 13-print_float, script that prints a number with two decimal places.
+
+> 14-decimal_to_hexadecimal, script that converts a number from base 10 to base 16.
