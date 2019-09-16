@@ -5,3 +5,5 @@
 + Value: rm *
 
 > 1-hello_you, script file that prints **hello user**, where **user** is the current Linux user.
+
+> 2-path, script that add /action to the PATH.
