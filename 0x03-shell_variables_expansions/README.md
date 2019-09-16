@@ -11,3 +11,7 @@
 > 4-global_variables, script that prints enviroments variables
 
 > 5-local_variables, script that prints all enviroment variables, local variables and functions.
+
+> 6-create_local_variable, script that create a new local variable.
++ Name: BETTY
+Value: Holberton
