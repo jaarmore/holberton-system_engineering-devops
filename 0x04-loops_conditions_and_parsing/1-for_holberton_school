@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Bash script that displays Holberton School 10 times.
+name="Holberton School"
+for _ in $(seq 1 10); do echo "$name"; done
