@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Script that read the content of file /etc/passwd and show username, group id.
+file=/etc/passwd
+while read -r line;do
+      echo "$line" | cut -d ':' -f 1,3,6
+done < $file
