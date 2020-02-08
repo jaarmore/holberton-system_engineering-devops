@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that displays Holberton School 10 times.
+# Bash script that displays superstitious numbers from 1 to 20.
 i=1
 while [ "$i" -le 20 ]
 do
