@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Script that displays content of the current directory
-for entry in ./*
+for entry in *
 do
 	echo "$entry" | cut -d '-' -f 2
 done
