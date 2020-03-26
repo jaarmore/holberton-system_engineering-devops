@@ -5,6 +5,7 @@ sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
 sudo chown -R ubuntu:ubuntu /var/www/html
 echo "Holberton School" > /var/www/html/index.html
+echo "Ceci n'est pas une page" > /var/www/html/404.html
 sudo chown -R ubuntu:ubuntu /etc/nginx/sites-available/
 printf %s "server {
     listen 80 default_server;
