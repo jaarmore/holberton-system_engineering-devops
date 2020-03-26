@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script that install and configure Nginx on server.
+# Script that configure Nginx redirection to 301 Moved Permanently on server.
 sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
