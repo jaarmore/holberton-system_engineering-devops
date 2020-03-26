@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Script that configure a custom custom 404 page on Nginx on server.
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
+sudo chown -R ubuntu:ubuntu /var/www/html
+echo "Holberton School" > /var/www/html/index.html
+sudo chown -R ubuntu:ubuntu /etc/nginx/sites-available/
+printf %s "server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+    root   /var/www/html;
+    index  index.html index.htm index.nginx-debian.html;
+    location /redirect_me {
+        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+    }
+    error_page 404 /404.html;
+    location = /404.html {
+        internal;
+    }
+}" > /etc/nginx/sites-available/default
+sudo service nginx restart
