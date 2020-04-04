@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Script that fix Nginx installation from listening on port 80.
-apt-get -y purge nginx*
-sudo apt-get -y install nginx
-sudo service nginx restart
+apt-get -y purge --auto-remove nginx* | apt-get -y install nginx
+service nginx restart
+pkill -F /var/nginx.pid
