@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# install the ufw firewall and setup a few rules on web-01
+sudo ufw allow ssh
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw enable
