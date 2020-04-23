@@ -38,11 +38,11 @@ On your primary MySQL server (web-01), create a new user for the replica server.
 
 ### 4. Setup a Primary-Replica infrastructure using MySQL
 Set up replica member on for your MySQL database.
+[mysql_primary](4-mysql_configuration_primary), [mysql_replica](4-mysql_configuration_replica)
 
 
 ### [5. MySQL backup](5-mysql_backup)
 Write a Bash script that generates a MySQL dump and creates a compressed archive out of it.
-[mysql_primary](4-mysql_configuration_primary), [mysql_replica](4-mysql_configuration_replica)
 
 
 ## AUTHOR
