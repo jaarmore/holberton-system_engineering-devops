@@ -21,28 +21,28 @@ In this project we learn about:
 ## Tasks
 
 ### 0. Install MySQL
-Lets get MySQL installed on both your web-01 and web-02 servers.
+Lets get `MySQL` installed on both your `web-01` and `web-02` servers.
 
 
 ### 1. Let us in!
-Create a user and password for both MySQL databases which will allow the checker access to them.
+Create a `user` and `password` for both `MySQL` databases which will allow the checker access to them.
 
 
 ### 2. If only you could see what I've seen with your eyes
-Youll need to have a database with at least one table and one row in your primary MySQL server (web-01) to replicate from.
+Youll need to have a database with at least one table and one row in your primary `MySQL` server `(web-01)` to replicate from.
 
 
 ### 3. Quite an experience to live in fear, isn't it?
-On your primary MySQL server (web-01), create a new user for the replica server.
+On your primary `MySQL` server `(web-01)`, create a new user for the replica server.
 
 
 ### 4. Setup a Primary-Replica infrastructure using MySQL
-Set up replica member on for your MySQL database.
+Set up replica member on for your `MySQL` database.
 [mysql_primary](4-mysql_configuration_primary), [mysql_replica](4-mysql_configuration_replica)
 
 
 ### [5. MySQL backup](5-mysql_backup)
-Write a Bash script that generates a MySQL dump and creates a compressed archive out of it.
+Write a Bash script that generates a `MySQL dump` and creates a compressed archive out of it.
 
 
 ## AUTHOR
