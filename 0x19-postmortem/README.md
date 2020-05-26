@@ -7,7 +7,7 @@ To provide the rest of the companys employees easy access to information detaili
 And to ensure that the root cause(s) of the outage has been discovered and that measures are taken to make sure it will be fixed.
 
 
-## [0. My first postmortem](README.md)
+## [0. My first postmortem](https://medium.com/@1227/post-mortem-36e96907b5b2)
 Write a postmortem using one of the web stack debugging project issue or an outage you have personally face.
 [Postmortem](https://medium.com/@1227/post-mortem-36e96907b5b2)
 
