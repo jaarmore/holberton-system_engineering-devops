@@ -8,6 +8,6 @@ exec { 'fix--for-nginx':
 
 # restart NGINX server
 service { 'restart-nginx':
-  name       => 'nginx',
+  name       => 'service nginx restart',
   hasrestart => true
 }
