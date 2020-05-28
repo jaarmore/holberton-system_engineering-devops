@@ -8,6 +8,5 @@ exec { 'fix--for-nginx':
 
 # restart NGINX server
 exec { 'restart-nginx':
-  command => 'service nginx restart',
-  path    => '/usr/bin:/usr/sbin/service'
+  command => '/usr/sbin/service nginx restart',
 }
