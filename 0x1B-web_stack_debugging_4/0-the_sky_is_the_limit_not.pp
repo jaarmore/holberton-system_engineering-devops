@@ -1,12 +1,5 @@
 # Tunning NGINX configuration, to accept a huge amount of request
-
-# Settings worker_rlimit_nofile
 exec { 'fix--for-nginx':
-  command => "sed -i 's/-n 15/ -n 10000/g' /etc/default/nginx",
+  command => "sed -i 's/worker_processes 4;/worker_processes 7;/g' /etc/nginx/nginx.conf; sudo service nginx restart",
   path    => ['/bin', '/usr/bin', '/usr/sbin']
-}
-
-# restart NGINX server
-exec { 'restart-nginx':
-  command => '/usr/sbin/service nginx restart',
 }
